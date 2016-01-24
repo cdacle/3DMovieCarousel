@@ -14,9 +14,9 @@ Once downloaded, you'll be running a Python script to generate the html file. Yo
 - Modern browser that supports 3D transformations
 
 ### Running the script
-1. Sync to local folder
-2. Open command-line environment in that folder path
-3. Open movies.json in your favorite editor. Feel free to edit/add/delete movie titles. The expected structure looks like the following:
+* Sync to local folder
+* Open command-line environment in that folder path
+* Open movies.json in your favorite editor. Feel free to edit/add/delete movie titles. The expected structure looks like the following:
 ```
 {
   "movies": [
@@ -32,7 +32,7 @@ Once downloaded, you'll be running a Python script to generate the html file. Yo
       "stars": "Tom Cruise, Kelly McGillis, Val Kilmer, Tom Skerritt"
     },
 ```
-4. Run Python script with the movies.json file:
+* Run Python script with the movies.json file:
  * Usage: show_movies.py <path_to_json_file>
 ```
 python show_movies.py movies.json
@@ -41,7 +41,7 @@ python show_movies.py movies.json
 The script will echo the movie data to the console. It will then open the browser with the resulting html file.
 
 ## Notes/caveats
-1. Regarding browser support, the html page was tested with the following browsers:
+* Regarding browser support, the html page was tested with the following browsers:
 ```
  Edge 25.10586.0.0
  IE 11 11.63.10586
@@ -51,9 +51,10 @@ The script will echo the movie data to the console. It will then open the browse
 ```
  * 3D transforms are not supported in Internet Explorer so don't use IE to view the page.
  * The mouse wheel scrolling functionality is not working in Firefox.
-2. The file path for the dynamically-generated html file is based on the input json file path. Given that the html file needs to reference the css/js folders, the input file path will also need to reside in the same folder as the rest of the code.
+ 
+* The file path for the dynamically-generated html file is based on the input json file path. Given that the html file needs to reference the css/js folders, the input file path will also need to reside in the same folder as the rest of the code.
 
-3. The input json file will need to define a minimum of three movie titles in order for the carousel to render properly.
+* The input json file will need to define a minimum of three movie titles in order for the carousel to render properly.
 
 ## Authors
 * [Christopher Dac Le](https://github.com/cdacle)
