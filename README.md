@@ -31,7 +31,6 @@ Once downloaded, you'll be running a Python script to generate the html file. Yo
       "director": "Tony Scott",
       "stars": "Tom Cruise, Kelly McGillis, Val Kilmer, Tom Skerritt"
     },
-    ...
 ```
 4. Run Python script with the movies.json file:
  * Usage: show_movies.py <path_to_json_file>
@@ -52,7 +51,6 @@ The script will echo the movie data to the console. It will then open the browse
 ```
  * 3D transforms are not supported in Internet Explorer so don't use IE to view the page.
  * The mouse wheel scrolling functionality is not working in Firefox.
-
 2. The file path for the dynamically-generated html file is based on the input json file path. Given that the html file needs to reference the css/js folders, the input file path will also need to reside in the same folder as the rest of the code.
 
 3. The input json file will need to define a minimum of three movie titles in order for the carousel to render properly.
