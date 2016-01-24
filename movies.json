@@ -1,0 +1,114 @@
+{
+  "movies": [
+    {
+      "title": "Top Gun",
+      "description": "Adrenaline in the sky",
+      "poster": "https://howtoexperience.files.wordpress.com/2012/10/topgun.png",
+      "trailer": "https://youtu.be/iCrUqt9Uf3E",
+      "imdb_rating":  "6.9",
+      "release": "1986",
+      "mpaa_rating": "PG",
+      "director": "Tony Scott",
+      "stars": "Tom Cruise, Kelly McGillis, Val Kilmer, Tom Skerritt"
+    },
+    {
+      "title": "Airplane!",
+      "description": "Zany stuff in the sky",
+      "poster": "https://fanart.tv/fanart/movies/813/movieposter/airplane-5212b101b1707.jpg",
+      "trailer": "https://youtu.be/HMnVs287AJ4",
+      "imdb_rating":  "7.8",
+      "release": "1980",
+      "mpaa_rating": "PG",
+      "director": "Jim Abrahams, David Zucker",
+      "stars": "Robert Hays, Julie Hagerty, Leslie Nielsen"
+    },
+    {
+      "title": "Toy Story",
+      "description": "Toys become animated",
+      "poster": "http://1.bp.blogspot.com/-4CEJ24flM5U/T-ePLTwLdyI/AAAAAAAAHcQ/GGYVN8SVxG0/s1600/Toy+Story+%281995%29+1.jpg",
+      "trailer": "https://youtu.be/KYz2wyBy3kc",
+      "imdb_rating":  "8.3",
+      "release": "1995",
+      "mpaa_rating": "G",
+      "director": "John Lasseter",
+      "stars": "Tom Hanks, Tim Allen, Don Rickles"
+    },
+    {
+      "title": "The Princess Bride",
+      "description": "Romance, fencing, wrestling, torture, true love",
+      "poster": "http://2.bp.blogspot.com/-xRGW5a7OnAM/UESufRN-ObI/AAAAAAAAM4Q/6fxTyiwJpHw/s1600/The+Princess+Bride+(1987)+3.jpg",
+      "trailer": "https://youtu.be/VYgcrny2hRs",
+      "imdb_rating":  "8.1",
+      "release": "1987",
+      "mpaa_rating": "PG",
+      "director": "Rob Reiner",
+      "stars": "Cary Elwes, Mandy Patinkin, Robin Wright"
+    },
+    {
+      "title": "Monty Python and the Holy Grail",
+      "description": "An epic quest of guffaw and absurdity",
+      "poster": "http://images.moviepostershop.com/monty-python-and-the-holy-grail-movie-poster-1975-1020465239.jpg",
+      "trailer": "https://youtu.be/urRkGvhXc8w",
+      "imdb_rating":  "8.3",
+      "release": "1975",
+      "mpaa_rating": "PG",
+      "director": "Terry Gilliam",
+      "stars": "John Cleese, Eric Idle, Graham Chapman, Terry Jones"
+    },
+    {
+      "title": "Interstellar",
+      "description": "A mind-bending cosmic journey",
+      "poster": "http://nimifab.com/wp-content/uploads/2014/11/interstellar-poster.jpg",
+      "trailer": "https://youtu.be/4T4wxDnTYLg",
+      "imdb_rating":  "8.6",
+      "release": "2015",
+      "mpaa_rating": "PG-13",
+      "director": "Christopher Nolan",
+      "stars": "Matt McConaughey, Anne Hathaway, Jessica Chastain"
+    },
+    {
+      "title": "Contact",
+      "description": "A thrilling adaptation of Carl Sagan's novel",
+      "poster": "http://www.movieposter.com/posters/archive/main/138/MPW-69012",
+      "trailer": "https://youtu.be/SRoj3jK37Vc",
+      "imdb_rating":  "7.4",
+      "release": "1997",
+      "mpaa_rating": "PG",
+      "director": "Robert Zemeckis",
+      "stars": "Jodie Foster, Matt McConaughey, Tom Skerritt"
+    },
+    {
+      "title": "Back to the Future",
+      "description": "A delightful trip through time",
+      "poster": "http://www.movieposter.com/posters/archive/main/50/MPW-25074",
+      "trailer": "https://youtu.be/qvsgGtivCgs",
+      "imdb_rating":  "8.5",
+      "release": "1985",
+      "mpaa_rating": "PG",
+      "director": "Robert Zemeckis",
+      "stars": "Michael J. Fox, Christopher Lloyd, Lea Thompson"
+    },
+    {
+      "title": "The Terminator",
+      "description": "A cyborg thriller",
+      "poster": "http://3.bp.blogspot.com/-E9hlArHVxdE/TVfsRnA_AiI/AAAAAAAAAO0/Zn38F36m1xs/s1600/the-terminator-1984-poster.jpg",
+      "trailer": "https://youtu.be/lHz95RYUbik",
+      "imdb_rating":  "8.1",
+      "release": "1984",
+      "mpaa_rating": "R",
+      "director": "James Cameron",
+      "stars": "Arnold Schwarzenegger, Linda Hamilton"
+    },
+   {
+      "title": "Matrix",
+      "description": "Just how deep is the rabbit hole...",
+      "poster": "http://orig08.deviantart.net/fbe4/f/2009/258/2/f/2fca1bc9ddcc147ef674d2eebb14ee3a.jpg",
+      "trailer": "https://youtu.be/vKQi3bBA1y8",
+      "imdb_rating":  "8.7",
+      "release": "1999",
+      "mpaa_rating": "R",
+      "director": "Andy Wachowski, Lana Wachowski",
+      "stars": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss"
+    }
+ ]
+}

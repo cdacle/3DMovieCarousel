@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fresh Tomatoes!</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+    <link href="./css/style.css" rel="stylesheet" media="screen">
+
+    <script src="./utils/trailer.js"></script>
+</head>
+
+<body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+                    <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24" />
+                </a>
+                <div class="scale-media" id="trailer-video-container">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Page Content -->
+    <div class="container">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./utils/utils.js"></script>
+    <script src="./utils/carousel.js"></script>
+    <script>
+        // TEMPLATE UPDATE
+        var movieCount = {_MOVIE_COUNT};
+    </script>
+
+    <SECTION class="carousel_container">
+        <div id="carousel">
+            {_MOVIE_ENTRIES}
+        </div>
+    </SECTION>
+
+    <div id="info_container">
+        <div id="title">
+        </div>
+        <p>
+
+        </p>
+        <div id="movie">
+            <div class="fieldlabel">
+                Release date:
+                <div id="ReleaseDatefieldvalue">
+                </div>
+            </div>
+            <p>
+
+            </p>
+            <div class="fieldlabel">
+                MPAA Rating:
+                <div id="Ratingfieldvalue">
+                </div>
+            </div>
+            <p>
+            </p>
+            <div class="fieldlabel">
+                Director:
+                <div id="Directorfieldvalue">
+                </div>
+            </div>
+            <p>
+
+            </p>
+            <div class="fieldlabel">
+                Stars:
+                <div id="Starsfieldvalue">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
